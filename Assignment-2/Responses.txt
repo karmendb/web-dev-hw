@@ -1,0 +1,21 @@
+1. Briefly describe one way how data travels on the internet.
+
+Data Travels through the internet in small bundles or packets that can carry up to 1,500 bytes of data. These packets can then travel the internet and from one computer to the other.
+
+2. What is the relationship between IP address and the DNS?
+
+The IP address is a an addressed that is assigned to every computer or server to identify it on any network, and the DNS is a domain name service. the relationship is that the DNS coverts alphabetic references into a server's IP address. This is generally used for hosting.
+
+3. What is a cookie?
+
+ Not the sweet delicious cookie we all think of, but an internet cooking is a small file that is designed to store small bits of data on a user's computer. This data can then be accesses by the user by the web server. This information gets used to help tailor web browsing to a specific user.
+
+4. List the three basic parts of a URL.
+
+The three basic parts to a URL are:
+
+- Protocol - This declares how your browser should communicate with the server when you go to  brown the internet. The most common example is https.
+
+- Domain name - Is a references used to identify the actual website. For example moodle.umt.edu.
+
+- Path - Typically refers to the extension of a website that is a file or directory on the web server to that particular website.
