@@ -10,9 +10,9 @@
       div {width:32%;display:inline-block;vertical-align:text-top;}
       table, td, th {
       /* -- Step 16 -- */
-
-
-
+        border: 2px solid gray;
+        border-collapse: collapse;
+        padding: 5px;
       }
     </style>
   </head>
@@ -36,32 +36,33 @@
         <legend>Contact Details</legend>
         <!-- Step 2 (Name) -->
         <p>Name:
-          <input type="text" name="name" id="name-first" />
-          <input type="text" name="name" id="name-middle" />
-          <input type="text" name="name" id="name-last" />
+          <input type="text" name="First" id="name-first" placeholder="First" />
+          <input type="text" name="Middle" id="name-middle" placeholder="middle"maxlength"4" size"4"/>
+          <input type="text" name="Last" id="name-last" placeholder="last" />
         </p>
         <!-- Step 3 (E-mail) -->
         <p>E-mail:
-
+          <input type="email" name="email" placeholder="you@email.com" autofocus />
         </p>
 
         <!-- Step 4 (Date) -->
         <p>Date of Birth:
-
+          <input type="text" name="birthdate" placeholder="mm/dd/yyyy" />
         </p>
 
         <!-- Step 5 ("No" Radio) -->
         <p>Have you taken a web design course before?</p>
             <input id="yes" type="radio" name="prev-course" value="y">
               <label for="yes">Yes</label>
-
+            <input id="no" type="radio" name="prev-course" value="n">
+                  <label for="no">No</label>
       </fieldset>
 
 
       <br />
 
 
-      <!-- Part : Previous Experience -->
+      <!-- Part2 : Previous Experience -->
       <fieldset>
         <legend>Previous Experience</legend>
         <!-- BROWSERS --><div id="browsers">
@@ -72,38 +73,77 @@
           <p>What is your preferred browser?</p>
           <p><i>Choose one:</i></p>
           <!-- Step 6 -->
-
+          <input type="radio" name="level" value="Firefox" /> Firefox
+            <br />
+          <input type="radio" name="level" value="Chrome" checked /> Chrome
+            <br />
+          <input type="radio" name="level" value="Internet Explorer" /> Internet Explorer
+            <br />
+          <input type="radio" name="level" value="Safari" /> Safari
+            <br />
+          <input type="radio" name="level" value="Opera" /> Opera
+            <br />
+          <input type="radio" name="level" value="Microsoft Edge" /> Microsoft Edge
+            <br />
+          <input type="radio" name="level" value="Other" /> Other
+            <br />
         </div>
 
         <!-- LANGUAGES --><div id="languages">
           <!-- Step 7 -->
+          <figure>
+          <img src="https://karmendb.github.io/web-dev-hw/Assignment-4/Images/languages.png"alt="Image of Computer Language CSS" title="Language Icon" width="100" height="100"/>
+          <figcaption>Chatting in Code</figcaption>
+          </figure>
 
           <p>What languages are you familiar with?</p>
           <p><i>Choose one or more:</i></p>
             <!-- Step 8 -->
+          <input type="checkbox" name="languages" value="HTML" /> HTML
+            <br />
+          <input type="checkbox" name="languages" value="CSS" /> CSS
+            <br />
+          <input type="checkbox" name="languages" value="Javascript" /> Java Script
+            <br />
+          <input type="checkbox" name="languages" value="PHP" /> PHP
+            <br />
+          <input type="checkbox" name="languages" value="Ruby" /> Ruby
+            <br />
+          <input type="checkbox" name="languages" value="Python" /> Python
+            <br />
+          <input type="checkbox" name="languages" value="Other" /> Other
+            <br />
 
         </div>
 
         <!-- SHORT-ANSWER--><div id="short-answer">
           <!-- Step 9 -->
-
+          <figure>
+          <img src="https://karmendb.github.io/web-dev-hw/Assignment-4/Images/experience.png"alt="Image of Computer tools" title="Language Icon" width="100" height="100"/>
+          <figcaption>In the Know?</figcaption>
+          </figure>
           <p>Introduce yourself!</p>
 
           <p>“Hi! I'm a
             <select name="experience-level">
             <!-- Step 10 -->
-
+            <option value="guppy">Guppy</option>
+            <option value="beginner">Beginner</option>
+            <option value="novice" selected>Novice</option>
+            <option value="journeyman">Journeyman</option>
+            <option value="expert">Expert</option>
+            <option value="wizard">Wizard</option>
             </select>
             web designer or developer.”</p>
 
           <p>“Last year, I spent
             <!-- Step 11 -->
-            <input type="text" name="experince-time"
+            <input type="numbers" name="experince-time"
             id="experince-time" placeholder="##" min="0" max="12" size="2"/>
             months studying or working in this field.”</p>
 
           <!-- Step 12 (textarea) -->
-          “I think my most difficult task will be...
+        <textarea name="comments" id="textarea" cols="30" rows="2">“I think my most difficult task will be..."</textarea>
         </div>
       </fieldset>
 
@@ -112,20 +152,51 @@
 
 
       <!-- Part 3: Course Offerings -->
+      <fieldset>
+        <legend>Offerings and Availability</legend>
       <!-- Steps 13-18 -->
-
-
-        <!-- Step 19 -->
         <table>
+           <tr>
+             <th></th>
+             <th scope="col">Spring Semester</th>
+             <th scope="col">Summer Session</th>
+             <th scope="col">Autumn Semester</th>
+             <th scope="col">Winter Session</th>
+             <th scope="col">Special Session</th>
+           </tr>
+           <tr>
+             <th scope="row">Times (PM)</th>
+             <td>M, W 12:00-2:00</td>
+             <td>F 5:30-9:30</td>
+             <td>M, W 12:00-2:00</td>
+             <td>F 12:00-4:00</td>
+             <td>TBA</td>
+           </tr>
+           <tr>
+             <th scope="row">Seats Available</th>
+             <td>12/60</td>
+             <td>Full</td>
+             <td>Full</td>
+             <td>2/60</td>
+             <td>0/60</td>
+           </tr>
+         </table>
 
-        </table>
-        <p>Yes! Sign me up for weekly e-mail alerts.
-
+        <p>
+          Username:
+          <input type="text" name="username" id="username" required/> <br/>
+          <br/>
+          Password:
+          <input type="password" name="password" id="password" required/>
         </p>
-
-
-    </main>
-    <!-- Step 20 -->
-
-  </body>
-</html>
+        <p>Yes! Sign me up for weekly e-mail alerts.
+          <input type="checkbox" name="newsletter" value="y" checked/>
+        </p>
+          <input type="image" src="./images/reg-button.png" alt="subscribe button image" width="100"/>
+        </fieldset>
+        </form>
+        </main>
+<!-- Step 20 -->
+          <img src="https://karmendb.github.io/web-dev-hw/Assignment-4/Images/registration-station.jpg" alt="Image of the registration station" title="Register Today!" width="500" height="333"/>
+        </body>
+      </html>
