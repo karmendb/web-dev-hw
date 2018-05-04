@@ -66,22 +66,9 @@ img {
  right: 15px;
  z-index: 1;
 }
-.image-box>p {
+.image-box {
  position: absolute;
  bottom: 60px;
  right: 60px;
- font-weight: bold;
- text-align: center;
- color: #000;
- font-family: 'Orbitron', sans-serif;
- font-size: 30px;
-}
 
-#img-flip {
-border:0;
-display:inline-block;
-transform:scaleX(-1);
--webkit-transform:scaleX(-1);
--moz-transform:scaleX(-1);
--o-transform:scaleX(-1);
-    }
+}
