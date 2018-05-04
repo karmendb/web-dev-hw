@@ -3,17 +3,17 @@ body{background-color:gold;
 }
 
 h1{color:teal;
-font-family:'Philosopher'fantasy;
+font-family:'Philosopher'cursive;
 font-size: 50pt;
 }
 
 h2{color:teal;
-  font-family:'Philosopher',fantasy;
+  font-family:'Philosopher',cursive;
   font-size:30pt;
 }
 
 h3{color:teal;
-   font-family:'Philosopher',fantasy;
+   font-family:'Philosopher',cursive;
    font-size:20pt;
 
 }
@@ -42,12 +42,12 @@ h3{color:teal;
   border-width: 3px;
 }
 
-a:link{color:inherit;
+a:link{color:teal;
   text-decoration: none;
 
 }
 
-a:hover{color:#teal;
+a:hover{color:#blue;
   text-decoration:none;
   font-weight:bold;
 
