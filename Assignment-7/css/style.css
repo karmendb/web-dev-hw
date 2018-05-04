@@ -1,15 +1,62 @@
-body{
-  background-color: Gold
-}
-h1{
-  color: teal;
+h1 {
+  color: #teal;
   text-align: center;
-  font-family: '';
-  font-size: 40pt;
+  font-family: ;
+  font-size: 200%;
   font-style: normal;
   font-weight:400;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 30px;
   letter-spacing: auto;
+}
+
+h2 {
+  color: #teal;
+  text-align: center;
+  font-family: ;
+  font-size: 125%;
+  font-style: normal;
+  letter-spacing: auto;
+}
+
+title {
+  border: 25px groove #teal;
+  padding: 2px;
+}
+
+body {
+  background-color: #gold;
+  font-family: ;
+  font-size: 150%;
+  font-weight: lighter;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.button-1 {
+    background-color: #tela;
+    border: 1px solid #black;
+    color: #purple;
+    cursor: pointer;
+}
+
+.button-1:hover {
+  background-color: #teal;
+  text-align: center;
+}
+
+.button-1:active{
+
+  background-color: white;
+  color: white;
+  border: white;
+  text-align: center;
+}
+
+.button-1:visited{
+  background-color: #teal;
+  border: 1px solid #teal;
+  color: #teal;
 }
