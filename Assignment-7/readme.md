@@ -15,4 +15,4 @@
   ****
 I really enjoyed learning about typography in web design. at first it was a bit trick to get my font to work but that was just me not paying attention and forgetting silly things like commas. Besides the small things I was able to move right along with this assignment, adding to my too box and practicing old tricks.
 
-![alt text]()
+![alt text](Images/Screenshot%20(7).png
