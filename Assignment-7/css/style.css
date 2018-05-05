@@ -6,25 +6,35 @@ body{background-color:PaleTurquoise	;
 
 h1{color:DarkKhaki;
 font-family:'Philosopher',sans-serif;
-font-size: 50pt;
+font-size:50pt;
+margin: 0px;
+padding:0PX;
+}
+pre{color:DarkKhaki;
+font-family:'Philosopher',sans-serif;
+font-size:38pt;
+margin: 0px;
+padding:0PX;
 }
 
-h2{color:DarkKhaki;
+h2{color:DarkGoldenrod;
   font-family:'Philosopher',sans-serif;
   font-size:30pt;
 }
 
-h3{color:DarkGoldenrod;
+h3{color:DarkSeaGreen;
    font-family:'Philosopher',sans-serif;
    font-size:20pt;
 }
 
 .body{text-align: center;
   background-color:PaleTurquoise;
-  font-family:'Niconne' cursive;
-  font-size: 15pt;
-  color: lightseagreen;
+  font-family:'Niconne',cursive;
+  font-size: 18pt;
+  color:DarkSeaGreen;
   padding: 24px;
+  margin: 60px;
+}
 
 .link{font-family:'Niconne', cursive;
   font-size:15pt;
@@ -32,7 +42,7 @@ h3{color:DarkGoldenrod;
   padding: 10px;
 }
 
-a:link{color:teal;
+a:link{color:darkmagenta;
   text-decoration: none;
 
 }
