@@ -1,14 +1,17 @@
-@import url('@import url('https://fonts.googleapis.com/css?family=Niconne|Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Niconne|Philosopher');
+
 
 @font-face{
-  font-family:'Philosopher-Regular', sans-serif;
-  src: url('fonts/Philosopher/Philosopher-Regular.ttf') format('opentype');
+  font-family:'Philosopher', sans-serif;
+  src: url('./fonts/Philosopher/Philosopher-Regular.ttf') format('opentype');
   font-weight:normal;
   font-style:normal;
+
 }
+
 h1{text-align: center;
   color: teal;
-  font-family:'Philosopher-Regular',sans-serif;
+  font-family:'Philosopher',sans-serif;
   font-size:50pt;
   font-style:normal;
   font-weight:600;
@@ -17,7 +20,7 @@ h1{text-align: center;
 
 h2{text-align: center;
   color: teal;
-  font-family:'Philosopher-Regular',sans-serif;
+  font-family:'Philosopher',sans-serif;
   font-size:30pt;
   font-style:normal;
   font-weight:normal;
@@ -26,21 +29,23 @@ h2{text-align: center;
 
 h3{text-align: center;
   color: teal;
-  font-family:'Philosopher-Regular',sans-serif;
+  font-family:'Philosopher',sans-serif;
   font-size:20pt;
   font-style:normal;
   font-weight:300;
 }
+
 @font-face{
-  font-family:'Niconne-Regular',cursive;
-  src: url('fonts/Niconne-Regular.ttf') format('opentype');
+  font-family:'Niconne', cursive;
+  src: url('./fonts/Niconne/Niconne-Regular.ttf') format('opentype');
   font-weight:normal;
   font-style:normal;
 }
 
+
 p{text-align: center;
   color:black;
-  font-family:'Niconne-Regular',cursive;
+  font-family:'Niconne', cursive;
   font-size:15pt;
   font-style:normal;
   font-weight:300;

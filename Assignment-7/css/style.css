@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne|Philosopher');
+
 body{background-color:PaleTurquoise	;
   text-align: center;
 }
 
 h1{color:DarkKhaki;
-font-family:'Philosopher';
+font-family:'Philosopher',sans-serif;
 font-size: 50pt;
 }
 
 h2{color:DarkKhaki;
-  font-family:'Philosopher';
+  font-family:'Philosopher',sans-serif;
   font-size:30pt;
 }
 
 h3{color:DarkGoldenrod;
-   font-family:'Philosopher';
+   font-family:'Philosopher',sans-serif;
    font-size:20pt;
 }
 
@@ -23,16 +25,16 @@ h3{color:DarkGoldenrod;
 
 .body{text-align: center;
   background-color:PaleTurquoise;
-  font-family:'Niconne'cursive;
+  font-family:'Niconne' cursive;
   font-size: 15pt;
   color: lightseagreen;
   padding: 24px;
 }
 
-.link{font-family:'Niconne',cursive;
+.link{font-family:'Niconne', cursive;
   font-size:15pt;
   text-color:gold;
-  background-color:lightblue;
+  background-color:PaleTurquoise;
   padding: 10px;
 }
 
