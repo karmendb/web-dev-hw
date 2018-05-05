@@ -19,21 +19,15 @@ h3{color:DarkGoldenrod;
    font-size:20pt;
 }
 
- hr{
-   color:teal
-    }
-
 .body{text-align: center;
   background-color:PaleTurquoise;
   font-family:'Niconne' cursive;
   font-size: 15pt;
   color: lightseagreen;
   padding: 24px;
-}
 
 .link{font-family:'Niconne', cursive;
   font-size:15pt;
-  text-color:gold;
   background-color:PaleTurquoise;
   padding: 10px;
 }
