@@ -8,7 +8,7 @@
 
 body{background-color:#303F44;}
 
-#container{
+#colorbox {
 	 width: 1100px;
 	 height: 1750px;
    position: absolute;
@@ -16,3 +16,27 @@ body{background-color:#303F44;}
    top: 40px;
 	 background-color: #fdfdf1;
 }
+#woman {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+	  width: 503px;
+	  height: 1200px;
+	  z-index: 3px;
+}
+#scene {
+    position: absolute;
+    left: 26px;
+    top: 898px;
+	  width: 500;
+	  height: 300;
+	  z-index: 2;
+}
+#patent {
+    position: absolute;
+    left: 9px;
+    top: 644px;
+	  width: 109;
+	  height: 34;
+	  padding:5px;
+	  z-index: 1;
