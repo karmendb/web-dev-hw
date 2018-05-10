@@ -16,6 +16,7 @@ body{background-color:#303F44;}
    left: 15px;
    top: 20px;
 	 background-color: #fdfdf1;
+	 padding: inherit;
 }
 .woman {
   position: absolute;
