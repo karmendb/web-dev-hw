@@ -226,7 +226,7 @@ body{background-color:#303F44;}
 .logo {
 	position: absolute;
 	left: 433px;
-	top: 1310px;
+	top: 1300px;
 }
 .mail {
 	font-family: 'PT Sans Caption', sans-serif;
@@ -234,6 +234,6 @@ body{background-color:#303F44;}
 	border: medium dashed #303F44;
 	position: absolute;
 	left: 512px;
-	top: 1610px;
+	top: 1600px;
 	width: 491px;
 }
